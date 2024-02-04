@@ -1,0 +1,47 @@
+There are 645 java files. The first 61 files in descending order of size contain 50% of the total lines of code.
+The total LOC is 159,429.	
+
+The following are my notes for each file, starting from the largest file and working my way down.
+
+./src/main/java/net/swordie/ms/client/character/Char.java
+
+This file defines the database table which stores the information for all characters in the server. 
+It has a few functions which implement sending packets of information to and from the server about characters, 
+such as which items are in the character's inventory, and what they have equipped. 
+It can also set skills, levels, attributes, and jobs. 
+
+./src/main/java/net/swordie/ms/scripts/ScriptManagerImpl.java
+
+The implements and manages python scripts which can be used while the server is running to set skill levels, 
+stats, send messages, spawn mobs, and so on. 
+
+./src/main/java/net/swordie/ms/constants/ItemConstants.java
+
+All of the items in the game have numeric IDs, this file has helpers to get the IDs from the name or type of the item.
+It can also get properties such as the type of item from the ID. This file doesn't do anything complex, it mostly
+has lots of boolean functions which ask questions like "is the item with ID number 104592645 a gun?"
+
+./src/main/java/net/swordie/ms/client/character/commands/AdminCommands.java
+
+As the name suggests, this file implements all of the Admin Commands. 
+
+./src/main/java/net/swordie/ms/constants/SkillConstants.java
+
+This is the same type of file as ItemConstants, but for skills. 
+
+./src/main/java/net/swordie/ms/life/mob/Mob.java
+
+This implements mob behavior, as well as broadcasting packets to and from the server about mob stats such as damage.
+This keeps track of mob activity and makes sure the info is synchonized between the clients and the server.
+
+./src/main/java/net/swordie/ms/handlers/header/OutHeader.java
+
+This is an enum, which means it is just a gigantic list of names and values. These are presumably for transmission of packets
+of data out from the server. 
+
+./src/main/java/net/swordie/ms/client/character/items/Equip.java
+
+This defines a database table for Equips. In this table it should store basically all the data necessary for equips so their
+basic stats and effects can be referenced and things like that.
+
+

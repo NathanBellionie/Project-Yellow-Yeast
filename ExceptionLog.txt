@@ -1,0 +1,4 @@
+
+------------------------ 2024-01-25 23:26:06 ------------------------
+�.....(搢u?+5'?H++4Q'櫞倉coIVXJ+TLSSp�.ELog|4|MAJOR|214|MINOR|1|DATETIME|2024/01/25 23:25:22|NAME|(null)|JOB|-1|FID|999999999|WID|0|Channel|0|LastUseName||52.37.193.138|State|1|Time1|796109042|Time2|796108997|LastLoadData in ETC(COM error)|UI/Basic.img/Cursor/1/1|UI/Basic.img/Cursor/4|UI/Basic.img/Cursor/4|UI/Login.img/Notice/Loading/backgrnd|Etc/StarStampEvent.img|Etc/PlantPot2.img|Etc/NavalWarfare.img|Etc/NotShowRemoteSkill.img|Etc/RuneStone.img/arrow2/notice2|Etc/RuneStone.img/arrow/notice2|Etc/RuneStone.img/arrow2/base|Etc/RuneStone.img/arrow2/base2|Etc/RuneStone.img/arrow2/notice3|Etc/RuneStone.img/arrow/notice3|Etc/RuneStone.img/arrow2/base|Etc/RuneStone.img/arrow2/base2|Etc/APCPvpData.img|Etc/11thEvent.img|Etc/11thEvent.img|UI/MapleTV.img/TVmedia|..
+
